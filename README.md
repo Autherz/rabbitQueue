@@ -1,4 +1,4 @@
-# rabbitQueue for Videos Transcoding
+# rabbitMQ Queue for Videos Transcoding
 Multiple Consumer for RabbitMQ
 
 ## Ref
