@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # rabbitMQ Queue for Videos Transcoding
+=======
+# rabbitQueue
+>>>>>>> dev
 Multiple Consumer for RabbitMQ
 
 ## Ref
