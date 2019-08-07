@@ -15,5 +15,5 @@ type TransVideos struct {
 
 type Consumer interface {
 	Consume(delivery amqp.Delivery)
-	Transcode(transVideos *TransVideos,inputPath string, outputPath string, socketIoFlag bool) error
+	Transcode(transVideos *TransVideos,inputPath string, outputPath string) error
 }
