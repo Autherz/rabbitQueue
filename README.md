@@ -1,5 +1,5 @@
 # rabbitQueue
-## Multiple Consumer for RabbitMQ
+Multiple Consumer for RabbitMQ
 
 ## Ref
 ### message queueing for redis (rmq)
