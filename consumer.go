@@ -1,6 +1,7 @@
 package rabbitQueue
 
 import (
+	"gopkg.in/mgo.v2"
 	"github.com/streadway/amqp"
 )
 type TransVideos struct {
@@ -15,5 +16,5 @@ type TransVideos struct {
 
 type Consumer interface {
 	Consume(delivery amqp.Delivery)
-	Transcode(transVideos *TransVideos,inputPath string, outputPath string, c *mq) error
+	Transcode(transVideos *TransVideos,inputPath string, outputPath string, c *mgo.Collection) error
 }
